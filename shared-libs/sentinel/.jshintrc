@@ -1,0 +1,9 @@
+{
+    "extends"       : "../.jshintrc",
+    "esversion"     : 6,
+
+    // Environments
+    "browser"       : false,    // Web Browser (window, document, etc)
+    "jquery"        : false,    // jQuery
+    "jasmine"       : false
+}
