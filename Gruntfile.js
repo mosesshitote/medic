@@ -1031,9 +1031,9 @@ module.exports = function(grunt) {
     'install-dependencies',
     'karma:unit',
     'karma:admin',
-    'exec:shared-lib-unit',
     'mochaTest:api-integration',
     'env:unit-test',
+    'exec:shared-lib-unit',
     'mochaTest:unit',
     'env:general',
     'exec:test-standard'
